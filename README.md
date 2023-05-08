@@ -39,7 +39,7 @@
 
 Для запуска приложения удобно использовать `dotnet run`:
 
-```shell-session
+```sh-session
 $ dotnet run --project ArrayFilter.CLI
 Enter comma-separated list of elements and press enter: Hello, 2, world, :-)
 
@@ -48,7 +48,7 @@ Enter comma-separated list of elements and press enter: Hello, 2, world, :-)
 
 Для запуска модульных тестов используйте `dotnet test`:
 
-```shell-session
+```sh-session
 $ dotnet test
 
 Microsoft (R) Test Execution Command Line Tool Version 17.2.0 (arm64)
@@ -62,7 +62,7 @@ Passed!  - Failed:     0, Passed:     6, Skipped:     0, Total:     6, Duration:
 
 Чтобы посмотреть список имеющихся тестов: 
 
-```shell-session
+```sh-session
 $ dotnet test --list-tests
 
 Microsoft (R) Test Execution Command Line Tool Version 17.2.0 (arm64)
